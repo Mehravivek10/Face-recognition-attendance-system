@@ -12,7 +12,7 @@ from firebase_admin import db
 # Firebase initialization
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://faceattendancesystem-b34c4-default-rtdb.firebaseio.com/"
+    'databaseURL': "url"
 })
 
 # Load the encoding file
