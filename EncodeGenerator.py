@@ -14,7 +14,7 @@ logging.basicConfig(filename='error_log.txt', level=logging.ERROR,
 try:
     cred = credentials.Certificate("serviceAccountKey.json")
     firebase_admin.initialize_app(cred, {
-        'databaseURL': "https://faceattendancesystem-b34c4-default-rtdb.firebaseio.com/"
+        'databaseURL': "url"
     })
     print("Firebase initialized successfully.")
 except FileNotFoundError:
