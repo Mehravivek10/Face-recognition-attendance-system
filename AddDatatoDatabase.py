@@ -5,7 +5,7 @@ from firebase_admin import db
 # Initialize Firebase with the service account key and database URL
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://faceattendancesystem-b34c4-default-rtdb.firebaseio.com/"
+    'databaseURL': "url"
 })
 
 # Reference to the Students node in the database
